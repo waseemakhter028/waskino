@@ -1,0 +1,20 @@
+# Tooling
+node_modules/
+vendor/
+
+# Firebase
+.firebaserc
+firebase-debug.log
+/.firebase
+
+# Dist files
+/public/api.json
+/public/sw.js
+/public/dist
+
+# Local video sources
+/public/video
+
+# Other
+.DS_Store
+.idea

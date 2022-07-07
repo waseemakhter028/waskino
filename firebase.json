@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "headers": [{
+      "source": "**",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "script-src 'self' www.gstatic.com; object-src 'none'; base-uri 'none'"
+        }
+      ]
+    }],
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
